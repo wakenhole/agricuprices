@@ -19,5 +19,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r crawler/requirements.txt
 
-      - name: Run Walmart & JD test
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run Walmart & JD basic test (requests)
         run: python crawler/test_walmart_jd.py
+
+      - name: Run Playwright + USDA test
+        run: python crawler/test_playwright_jd_walmart.py
