@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-22T08:12:15+00:00Z",
-  "is_sample": true,
+  "updated_at": "2026-04-22T21:54:15+00:00Z",
+  "is_sample": false,
   "exchange_rates": {
-    "USD": 1380,
+    "AUD": 1053,
+    "CNY": 216,
+    "EUR": 1724,
+    "GBP": 2000,
     "JPY": 9,
-    "CNY": 190,
-    "EUR": 1490,
-    "GBP": 1750,
-    "AUD": 890
+    "USD": 1471
   },
   "items": {
     "tomato": {
@@ -25,10 +25,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 276,
-          "price_local": 0.2,
+          "price_krw": 971,
+          "price_local": 0.66,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -83,10 +83,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 138,
-          "price_local": 0.1,
+          "price_krw": 647,
+          "price_local": 0.44,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -141,10 +141,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 124,
-          "price_local": 0.09,
+          "price_krw": 279,
+          "price_local": 0.19,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -199,10 +199,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 83,
-          "price_local": 0.06,
+          "price_krw": 324,
+          "price_local": 0.22,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -257,10 +257,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 248,
-          "price_local": 0.18,
+          "price_krw": 809,
+          "price_local": 0.55,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -431,10 +431,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 345,
-          "price_local": 0.25,
+          "price_krw": 1030,
+          "price_local": 0.7,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -489,10 +489,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 304,
-          "price_local": 0.22,
+          "price_krw": 706,
+          "price_local": 0.48,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -547,10 +547,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 110,
-          "price_local": 0.08,
+          "price_krw": 250,
+          "price_local": 0.17,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -605,10 +605,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 166,
-          "price_local": 0.12,
+          "price_krw": 368,
+          "price_local": 0.25,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -663,10 +663,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 621,
-          "price_local": 0.45,
+          "price_krw": 1074,
+          "price_local": 0.73,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
@@ -721,10 +721,10 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 483,
-          "price_local": 0.35,
+          "price_krw": 868,
+          "price_local": 0.59,
           "currency": "USD",
-          "store": "Walmart",
+          "store": "Kroger",
           "fetched_at": "2026-04-22"
         },
         "jp": {
