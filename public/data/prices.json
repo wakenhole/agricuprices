@@ -1,0 +1,222 @@
+{
+  "updated_at": "2026-04-22T06:00:00Z",
+  "is_sample": true,
+  "exchange_rates": {
+    "USD": 1380,
+    "JPY": 9,
+    "CNY": 190,
+    "EUR": 1490,
+    "GBP": 1750,
+    "AUD": 890
+  },
+  "items": {
+    "tomato": {
+      "name_ko": "토마토",
+      "name_en": "Tomato",
+      "emoji": "🍅",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 500, "price_local": 500, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 276, "price_local": 0.20, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 900, "price_local": 100, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 475, "price_local": 2.50, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 373, "price_local": 0.25, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 315, "price_local": 0.18, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 401, "price_local": 0.45, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "carrot": {
+      "name_ko": "당근",
+      "name_en": "Carrot",
+      "emoji": "🥕",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 180, "price_local": 180, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 138, "price_local": 0.10, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 225, "price_local": 25, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 152, "price_local": 0.80, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 149, "price_local": 0.10, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 158, "price_local": 0.09, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 178, "price_local": 0.20, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "potato": {
+      "name_ko": "감자",
+      "name_en": "Potato",
+      "emoji": "🥔",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 220, "price_local": 220, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 124, "price_local": 0.09, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 225, "price_local": 25, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 190, "price_local": 1.00, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 119, "price_local": 0.08, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 140, "price_local": 0.08, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 160, "price_local": 0.18, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "onion": {
+      "name_ko": "양파",
+      "name_en": "Onion",
+      "emoji": "🧅",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 150, "price_local": 150, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 83, "price_local": 0.06, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 180, "price_local": 20, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 152, "price_local": 0.80, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 89, "price_local": 0.06, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 123, "price_local": 0.07, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 134, "price_local": 0.15, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "broccoli": {
+      "name_ko": "브로콜리",
+      "name_en": "Broccoli",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 450, "price_local": 450, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 248, "price_local": 0.18, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 495, "price_local": 55, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 380, "price_local": 2.00, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 328, "price_local": 0.22, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 350, "price_local": 0.20, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 312, "price_local": 0.35, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "cucumber": {
+      "name_ko": "오이",
+      "name_en": "Cucumber",
+      "emoji": "🥒",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 350, "price_local": 350, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 207, "price_local": 0.15, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 360, "price_local": 40, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 285, "price_local": 1.50, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 224, "price_local": 0.15, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 228, "price_local": 0.13, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 223, "price_local": 0.25, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "garlic": {
+      "name_ko": "마늘",
+      "name_en": "Garlic",
+      "emoji": "🧄",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 800, "price_local": 800, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 386, "price_local": 0.28, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 810, "price_local": 90, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 665, "price_local": 3.50, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 447, "price_local": 0.30, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 613, "price_local": 0.35, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 534, "price_local": 0.60, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "bell_pepper": {
+      "name_ko": "파프리카",
+      "name_en": "Bell Pepper",
+      "emoji": "🫑",
+      "category": "vegetable",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 650, "price_local": 650, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 345, "price_local": 0.25, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 630, "price_local": 70, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 475, "price_local": 2.50, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 417, "price_local": 0.28, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 438, "price_local": 0.25, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 401, "price_local": 0.45, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "apple": {
+      "name_ko": "사과",
+      "name_en": "Apple",
+      "emoji": "🍎",
+      "category": "fruit",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 800, "price_local": 800, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 304, "price_local": 0.22, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 900, "price_local": 100, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 570, "price_local": 3.00, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 328, "price_local": 0.22, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 350, "price_local": 0.20, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 356, "price_local": 0.40, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "banana": {
+      "name_ko": "바나나",
+      "name_en": "Banana",
+      "emoji": "🍌",
+      "category": "fruit",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 250, "price_local": 250, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 110, "price_local": 0.08, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 225, "price_local": 25, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 190, "price_local": 1.00, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 149, "price_local": 0.10, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 175, "price_local": 0.10, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 134, "price_local": 0.15, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "orange": {
+      "name_ko": "오렌지",
+      "name_en": "Orange",
+      "emoji": "🍊",
+      "category": "fruit",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 450, "price_local": 450, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 166, "price_local": 0.12, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 495, "price_local": 55, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 380, "price_local": 2.00, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 209, "price_local": 0.14, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 228, "price_local": 0.13, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 223, "price_local": 0.25, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "strawberry": {
+      "name_ko": "딸기",
+      "name_en": "Strawberry",
+      "emoji": "🍓",
+      "category": "fruit",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 1200, "price_local": 1200, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 621, "price_local": 0.45, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 1620, "price_local": 180, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 950, "price_local": 5.00, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 671, "price_local": 0.45, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 700, "price_local": 0.40, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 712, "price_local": 0.80, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    },
+    "grape": {
+      "name_ko": "포도",
+      "name_en": "Grape",
+      "emoji": "🍇",
+      "category": "fruit",
+      "unit": "100g",
+      "countries": {
+        "kr": { "price_krw": 1000, "price_local": 1000, "currency": "KRW", "store": "이마트", "fetched_at": "2026-04-22" },
+        "us": { "price_krw": 483, "price_local": 0.35, "currency": "USD", "store": "Walmart", "fetched_at": "2026-04-22" },
+        "jp": { "price_krw": 1170, "price_local": 130, "currency": "JPY", "store": "AEON", "fetched_at": "2026-04-22" },
+        "cn": { "price_krw": 855, "price_local": 4.50, "currency": "CNY", "store": "盒马", "fetched_at": "2026-04-22" },
+        "de": { "price_krw": 566, "price_local": 0.38, "currency": "EUR", "store": "REWE", "fetched_at": "2026-04-22" },
+        "uk": { "price_krw": 613, "price_local": 0.35, "currency": "GBP", "store": "Tesco", "fetched_at": "2026-04-22" },
+        "au": { "price_krw": 579, "price_local": 0.65, "currency": "AUD", "store": "Woolworths", "fetched_at": "2026-04-22" }
+      }
+    }
+  }
+}
