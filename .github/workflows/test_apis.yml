@@ -1,0 +1,32 @@
+name: Test Official APIs (KAMIS + Kroger)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: crawler/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r crawler/requirements.txt
+
+      - name: Test KAMIS API (Korea)
+        run: python crawler/test_apis.py kamis
+        env:
+          KAMIS_API_KEY: ${{ secrets.KAMIS_API_KEY }}
+          KAMIS_API_ID:  ${{ secrets.KAMIS_API_ID }}
+
+      - name: Test Kroger API (USA)
+        run: python crawler/test_apis.py kroger
+        env:
+          KROGER_CLIENT_ID:     ${{ secrets.KROGER_CLIENT_ID }}
+          KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}

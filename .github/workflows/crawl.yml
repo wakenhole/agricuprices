@@ -29,6 +29,11 @@ jobs:
 
       - name: Run crawler
         run: python crawler/crawl.py
+        env:
+          KAMIS_API_KEY:       ${{ secrets.KAMIS_API_KEY }}
+          KAMIS_API_ID:        ${{ secrets.KAMIS_API_ID }}
+          KROGER_CLIENT_ID:    ${{ secrets.KROGER_CLIENT_ID }}
+          KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}
 
       - name: Commit updated price data
         run: |
