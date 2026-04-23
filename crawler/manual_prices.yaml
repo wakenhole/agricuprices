@@ -1,0 +1,89 @@
+# 수동 가격 데이터 — 자동 크롤링이 불가능한 국가
+# 분기별 또는 가격 변동 시 직접 업데이트
+# 각 마트 웹사이트에서 확인 후 수정하세요
+#
+# 출처:
+#   JP → https://shop.aeon.com  (AEON)
+#   DE → https://www.rewe.de    (REWE)
+#   CN → https://www.hema.com   (盒马)
+#   AU → https://www.coles.com.au (Coles)
+
+jp:
+  store: AEON
+  currency: JPY
+  verified: "2026-04"
+  note: "JPY per 100g"
+  items:
+    tomato: 100
+    carrot: 25
+    potato: 25
+    onion: 20
+    broccoli: 55
+    cucumber: 40
+    garlic: 90
+    bell_pepper: 70
+    apple: 100
+    banana: 25
+    orange: 55
+    strawberry: 180
+    grape: 130
+
+de:
+  store: REWE
+  currency: EUR
+  verified: "2026-04"
+  note: "EUR per 100g"
+  items:
+    tomato: 0.25
+    carrot: 0.10
+    potato: 0.08
+    onion: 0.06
+    broccoli: 0.22
+    cucumber: 0.15
+    garlic: 0.30
+    bell_pepper: 0.28
+    apple: 0.22
+    banana: 0.10
+    orange: 0.14
+    strawberry: 0.45
+    grape: 0.38
+
+cn:
+  store: 盒马
+  currency: CNY
+  verified: "2026-04"
+  note: "CNY per 100g"
+  items:
+    tomato: 2.50
+    carrot: 0.80
+    potato: 1.00
+    onion: 0.80
+    broccoli: 2.00
+    cucumber: 1.50
+    garlic: 3.50
+    bell_pepper: 2.50
+    apple: 3.00
+    banana: 1.00
+    orange: 2.00
+    strawberry: 5.00
+    grape: 4.50
+
+au:
+  store: Coles
+  currency: AUD
+  verified: "2026-04"
+  note: "AUD per 100g"
+  items:
+    tomato: 0.45
+    carrot: 0.20
+    potato: 0.18
+    onion: 0.15
+    broccoli: 0.35
+    cucumber: 0.25
+    garlic: 0.60
+    bell_pepper: 0.45
+    apple: 0.40
+    banana: 0.15
+    orange: 0.25
+    strawberry: 0.80
+    grape: 0.65

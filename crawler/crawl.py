@@ -6,10 +6,10 @@ Data collection strategy:
   🇰🇷 Korea    : KAMIS official API          (env: KAMIS_API_KEY, KAMIS_API_ID)
   🇺🇸 USA      : Kroger official API         (env: KROGER_CLIENT_ID, KROGER_CLIENT_SECRET)
   🇬🇧 UK       : Aldi UK Playwright → Numbeo London
-  🇩🇪 Germany  : Numbeo Berlin
-  🇯🇵 Japan    : Numbeo Tokyo
-  🇨🇳 China    : Numbeo Shanghai
-  🇦🇺 Australia: Numbeo Sydney
+  🇩🇪 Germany  : Numbeo Berlin → manual_prices.yaml
+  🇯🇵 Japan    : Numbeo Tokyo  → manual_prices.yaml
+  🇨🇳 China    : Numbeo Shanghai → manual_prices.yaml
+  🇦🇺 Australia: Numbeo Sydney   → manual_prices.yaml
 
 Prices that fail to fetch retain their previous values in prices.json.
 """
@@ -26,6 +26,7 @@ from sources.germany     import get_germany_prices
 from sources.japan       import get_japan_prices
 from sources.china       import get_china_prices
 from sources.australia   import get_australia_prices
+from sources.manual      import get_manual_prices
 
 DATA_FILE = Path(__file__).parent.parent / "public" / "data" / "prices.json"
 
@@ -71,14 +72,17 @@ def main() -> None:
         print(f"  Using cached: {rates}")
 
     # ── 2. Country scrapers ──────────────────────────────────
+    # Countries that have a manual_prices.yaml fallback
+    MANUAL_FALLBACK = {"de", "jp", "cn", "au"}
+
     scrapers = [
         ("kr", get_korea_prices,    rates.get("KRW", 1),    "[2/8] 🇰🇷 Korea    (KAMIS API)"),
         ("us", get_usa_prices,      rates.get("USD", 1471), "[3/8] 🇺🇸 USA      (Kroger API)"),
         ("uk", get_uk_prices,       rates.get("GBP", 2000), "[4/8] 🇬🇧 UK       (Aldi → Numbeo)"),
-        ("de", get_germany_prices,  rates.get("EUR", 1724), "[5/8] 🇩🇪 Germany  (Numbeo Berlin)"),
-        ("jp", get_japan_prices,    rates.get("JPY", 9),    "[6/8] 🇯🇵 Japan    (Numbeo Tokyo)"),
-        ("cn", get_china_prices,    rates.get("CNY", 216),  "[7/8] 🇨🇳 China    (Numbeo Shanghai)"),
-        ("au", get_australia_prices,rates.get("AUD", 1053), "[8/8] 🇦🇺 Australia(Numbeo Sydney)"),
+        ("de", get_germany_prices,  rates.get("EUR", 1724), "[5/8] 🇩🇪 Germany  (Numbeo Berlin → manual)"),
+        ("jp", get_japan_prices,    rates.get("JPY", 9),    "[6/8] 🇯🇵 Japan    (Numbeo Tokyo  → manual)"),
+        ("cn", get_china_prices,    rates.get("CNY", 216),  "[7/8] 🇨🇳 China    (Numbeo Shanghai → manual)"),
+        ("au", get_australia_prices,rates.get("AUD", 1053), "[8/8] 🇦🇺 Australia(Numbeo Sydney → manual)"),
     ]
 
     total = 0
@@ -87,10 +91,26 @@ def main() -> None:
         try:
             prices = scraper(rate) if code != "kr" else scraper()
             n = apply_prices(data, code, prices, rate)
-            print(f"  → {n} items updated")
+            if n == 0 and code in MANUAL_FALLBACK:
+                print(f"  → automated fetch returned nothing, trying manual fallback...")
+                prices = get_manual_prices(code, rate)
+                n = apply_prices(data, code, prices, rate)
+                if n:
+                    print(f"  → manual: {n} items applied")
+            else:
+                print(f"  → {n} items updated")
             total += n
         except Exception as e:
             print(f"  → ERROR: {e}")
+            if code in MANUAL_FALLBACK:
+                print(f"  → trying manual fallback after error...")
+                try:
+                    prices = get_manual_prices(code, rate)
+                    n = apply_prices(data, code, prices, rate)
+                    print(f"  → manual: {n} items applied")
+                    total += n
+                except Exception as e2:
+                    print(f"  → manual fallback also failed: {e2}")
 
     # ── 3. Save ──────────────────────────────────────────────
     data["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds") + "Z"
