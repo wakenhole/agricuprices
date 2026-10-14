@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:12:58+00:00Z",
+  "updated_at": "2026-10-14T23:46:15+00:00Z",
   "is_sample": false,
   "exchange_rates": {
     "AUD": 935,
@@ -211,8 +211,8 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 347,
-          "price_local": 0.26,
+          "price_krw": 373,
+          "price_local": 0.28,
           "currency": "USD",
           "store": "Kroger",
           "fetched_at": "2026-10-14"
@@ -273,8 +273,8 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 666,
-          "price_local": 0.5,
+          "price_krw": 706,
+          "price_local": 0.53,
           "currency": "USD",
           "store": "Kroger",
           "fetched_at": "2026-10-14"
@@ -521,8 +521,8 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 440,
-          "price_local": 0.33,
+          "price_krw": 387,
+          "price_local": 0.29,
           "currency": "USD",
           "store": "Kroger",
           "fetched_at": "2026-10-14"
