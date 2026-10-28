@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-27T00:24:47+00:00Z",
+  "updated_at": "2026-10-28T00:19:25+00:00Z",
   "is_sample": false,
   "exchange_rates": {
-    "AUD": 931,
+    "AUD": 934,
     "CNY": 199,
-    "EUR": 1483,
-    "GBP": 1769,
+    "EUR": 1480,
+    "GBP": 1770,
     "JPY": 8,
-    "USD": 1325
+    "USD": 1328
   },
   "items": {
     "tomato": {
@@ -25,11 +25,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 437,
+          "price_krw": 438,
           "price_local": 0.33,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 800,
@@ -37,7 +37,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 498,
@@ -45,30 +45,30 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 371,
+          "price_krw": 370,
           "price_local": 0.25,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 419,
+          "price_krw": 420,
           "price_local": 0.45,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -87,11 +87,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 437,
+          "price_krw": 438,
           "price_local": 0.33,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 200,
@@ -99,7 +99,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 159,
@@ -107,7 +107,7 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
           "price_krw": 148,
@@ -115,22 +115,22 @@
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 186,
+          "price_krw": 187,
           "price_local": 0.2,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -149,11 +149,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 702,
+          "price_krw": 704,
           "price_local": 0.53,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 200,
@@ -161,7 +161,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 199,
@@ -169,22 +169,22 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 119,
+          "price_krw": 118,
           "price_local": 0.08,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
           "price_krw": 168,
@@ -192,7 +192,7 @@
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -211,11 +211,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 371,
+          "price_krw": 372,
           "price_local": 0.28,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 160,
@@ -223,7 +223,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 159,
@@ -231,7 +231,7 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
           "price_krw": 89,
@@ -239,14 +239,14 @@
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
           "price_krw": 140,
@@ -254,7 +254,7 @@
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -273,11 +273,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 702,
+          "price_krw": 704,
           "price_local": 0.53,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 440,
@@ -285,7 +285,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 398,
@@ -293,7 +293,7 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
           "price_krw": 326,
@@ -301,22 +301,22 @@
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 326,
+          "price_krw": 327,
           "price_local": 0.35,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -347,7 +347,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 298,
@@ -355,7 +355,7 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
           "price_krw": 222,
@@ -363,22 +363,22 @@
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 233,
+          "price_krw": 234,
           "price_local": 0.25,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -397,11 +397,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 2332,
+          "price_krw": 2337,
           "price_local": 1.76,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 720,
@@ -409,7 +409,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 696,
@@ -417,30 +417,30 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 445,
+          "price_krw": 444,
           "price_local": 0.3,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 559,
+          "price_krw": 560,
           "price_local": 0.6,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -459,11 +459,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 927,
+          "price_krw": 930,
           "price_local": 0.7,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 560,
@@ -471,7 +471,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 498,
@@ -479,30 +479,30 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 415,
+          "price_krw": 414,
           "price_local": 0.28,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 419,
+          "price_krw": 420,
           "price_local": 0.45,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -521,11 +521,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 384,
+          "price_krw": 385,
           "price_local": 0.29,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 800,
@@ -533,7 +533,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 597,
@@ -541,7 +541,7 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
           "price_krw": 326,
@@ -549,22 +549,22 @@
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 372,
+          "price_krw": 374,
           "price_local": 0.4,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -583,11 +583,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 172,
+          "price_krw": 173,
           "price_local": 0.13,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 200,
@@ -595,7 +595,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 199,
@@ -603,7 +603,7 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
           "price_krw": 148,
@@ -611,14 +611,14 @@
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
           "price_krw": 140,
@@ -626,7 +626,7 @@
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -645,11 +645,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 477,
+          "price_krw": 478,
           "price_local": 0.36,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 440,
@@ -657,7 +657,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 398,
@@ -665,30 +665,30 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 208,
+          "price_krw": 207,
           "price_local": 0.14,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 233,
+          "price_krw": 234,
           "price_local": 0.25,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -707,11 +707,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 1020,
+          "price_krw": 1023,
           "price_local": 0.77,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 1440,
@@ -719,7 +719,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 995,
@@ -727,30 +727,30 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 667,
+          "price_krw": 666,
           "price_local": 0.45,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 745,
+          "price_krw": 747,
           "price_local": 0.8,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     },
@@ -769,11 +769,11 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 1020,
+          "price_krw": 1023,
           "price_local": 0.77,
           "currency": "USD",
           "store": "Kroger",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "jp": {
           "price_krw": 1040,
@@ -781,7 +781,7 @@
           "currency": "JPY",
           "store": "AEON",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "cn": {
           "price_krw": 896,
@@ -789,30 +789,30 @@
           "currency": "CNY",
           "store": "盒马",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "de": {
-          "price_krw": 564,
+          "price_krw": 562,
           "price_local": 0.38,
           "currency": "EUR",
           "store": "REWE",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "uk": {
-          "price_krw": 2459,
+          "price_krw": 2460,
           "price_local": 1.39,
           "currency": "GBP",
           "store": "Aldi",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         },
         "au": {
-          "price_krw": 605,
+          "price_krw": 607,
           "price_local": 0.65,
           "currency": "AUD",
           "store": "Coles",
           "source": "manual/2026-04",
-          "fetched_at": "2026-10-27"
+          "fetched_at": "2026-10-28"
         }
       }
     }
