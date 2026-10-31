@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T00:32:59+00:00Z",
+  "updated_at": "2026-10-31T23:59:27+00:00Z",
   "is_sample": false,
   "exchange_rates": {
     "AUD": 938,
@@ -397,8 +397,8 @@
           "fetched_at": "2026-04-22"
         },
         "us": {
-          "price_krw": 2643,
-          "price_local": 1.98,
+          "price_krw": 2350,
+          "price_local": 1.76,
           "currency": "USD",
           "store": "Kroger",
           "fetched_at": "2026-10-31"
